@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Dictionary<char, int> positionLetterToInt = new Dictionary<char, int>();
 for (int i = 0; i < 8; i++) { positionLetterToInt.Add((char)(i + 97), i); }
-
+//changes
 const char PLAYER1SYMBOL = 'X';
 const char PLAYER1ROYAL = 'K';
 const char PLAYER2SYMBOL = 'O';
